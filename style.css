@@ -1,0 +1,87 @@
+body {
+	font-family: "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: slategray;
+}
+
+header{
+	position: relative;
+	display: flex;
+	margin-bottom: 10px;
+	background-color: darkgray;
+	border-bottom: 5px solid black;
+	border-radius: 5px;
+	align-items: center;
+}
+main, footer {
+	border: 5px solid black;
+	border-radius: 5px;
+	text-decoration: underline;
+	background-color: darkgray;
+	padding-left: 5%;
+	position: relative;
+	z-index: -1;
+	width: 90%;
+	margin: 1vw 2% ;
+}
+.header-title{
+	position: relative;
+	left: 20vw;
+	display: flex;
+	align-items: center;
+}
+.header-contact-icons{
+	position: absolute;
+	right: 20vw;
+	display: flex;
+}
+#search-bar {
+	border-radius: 5px;
+	border: 2px solid black;
+	text-align: center;
+}
+.products-bar{
+	background-color: darkgray;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	position: sticky;
+	top: 1vw;
+	border: 5px solid black;
+	border-radius: 5px;
+}
+.products-bar > button {
+	text-decoration: none;
+	color: darkcyan;
+	font-size: 18px;
+	background-color: black;
+	display: block;
+	width: 10vw;
+	line-height: 5vw;
+	text-align: center;
+	margin: 5px 2px;
+	border-radius: 5px;
+}
+.products-bar > input {
+	margin: 5px 0;
+	position: relative;
+	left: 20vw;
+	width: 20vw;
+}
+.product {
+	position: relative;
+	display: inline;
+}
+.product > p {
+	position: absolute;
+	bottom: 0;
+	right: 1vw;
+	color: darkcyan;
+}
+.product > img {
+	width: 26.5vw;
+	height: 18vw;
+	border: 3px solid black;
+	border-radius: 5px;
+}
